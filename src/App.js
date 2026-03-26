@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Navigate,
   Route,
   Routes,
@@ -70,9 +70,9 @@ function StorefrontApp() {
 export default function App() {
   return (
     <StoreProvider>
-      <BrowserRouter future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
+      <HashRouter future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
         <StorefrontApp />
-      </BrowserRouter>
+      </HashRouter>
     </StoreProvider>
   );
 }
