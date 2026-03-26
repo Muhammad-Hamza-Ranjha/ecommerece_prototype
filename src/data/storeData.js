@@ -1,0 +1,281 @@
+export const categories = [
+  {
+    id: 'audio',
+    name: 'Electronics',
+    icon: '🎧',
+    image:
+      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 'wearables',
+    name: 'Wearables',
+    icon: '⌚',
+    image:
+      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 'home-office',
+    name: 'Home Office',
+    icon: '💡',
+    image:
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 'mobile',
+    name: 'Mobile',
+    icon: '📱',
+    image:
+      'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 'gaming',
+    name: 'Gaming',
+    icon: '🎮',
+    image:
+      'https://images.unsplash.com/photo-1603481546579-65d935ba9cdd?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 'lifestyle',
+    name: 'Lifestyle',
+    icon: '🧳',
+    image:
+      'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=900&q=80',
+  },
+];
+
+export const products = [
+  {
+    id: 1,
+    name: 'Premium Wireless Headphones',
+    price: 129.99,
+    originalPrice: 199.99,
+    discount: 35,
+    rating: 4.5,
+    reviews: 284,
+    category: 'Electronics',
+    brand: 'SoundPro',
+    stock: 12,
+    images: [
+      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Black', 'White', 'Navy'],
+    sizes: [],
+    description:
+      'A studio-quality listening experience with active noise cancellation, plush memory foam, and all-day comfort.',
+    specs: { weight: '250g', battery: '30hrs', connectivity: 'Bluetooth 5.0' },
+    tags: ['wireless', 'noise-cancelling', 'premium'],
+    isNew: true,
+  },
+  {
+    id: 2,
+    name: 'Smart Fitness Watch X2',
+    price: 179.99,
+    originalPrice: 229.99,
+    discount: 22,
+    rating: 4.7,
+    reviews: 198,
+    category: 'Wearables',
+    brand: 'PulseFit',
+    stock: 8,
+    images: [
+      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1579586337278-3f436f25d4d6?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Black', 'Rose Gold', 'Silver'],
+    sizes: ['40mm', '44mm'],
+    description:
+      'Track wellness, workouts, and sleep with a sleek AMOLED display and seven-day battery life.',
+    specs: { weight: '42g', battery: '7 days', connectivity: 'Bluetooth / GPS' },
+    tags: ['fitness', 'smartwatch', 'health'],
+  },
+  {
+    id: 3,
+    name: 'Minimal Desk Lamp Pro',
+    price: 64.99,
+    originalPrice: 89.99,
+    discount: 28,
+    rating: 4.3,
+    reviews: 87,
+    category: 'Home Office',
+    brand: 'Lumio',
+    stock: 16,
+    images: [
+      'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Sand', 'Graphite'],
+    sizes: [],
+    description:
+      'A warm ambient desk lamp with touch dimming, wireless charging base, and minimalist silhouette.',
+    specs: { weight: '1.2kg', battery: 'Plug-in', connectivity: 'USB-C' },
+    tags: ['desk', 'lamp', 'workspace'],
+  },
+  {
+    id: 4,
+    name: 'UltraSlim Phone Max',
+    price: 899.99,
+    originalPrice: 999.99,
+    discount: 10,
+    rating: 4.8,
+    reviews: 542,
+    category: 'Mobile',
+    brand: 'Nova',
+    stock: 5,
+    images: [
+      'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1510557880182-3d4d3caba62a?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Graphite', 'Blue', 'Pearl'],
+    sizes: ['128GB', '256GB'],
+    description:
+      'Flagship smartphone with cinematic camera system, ultra-bright display, and fast wireless charging.',
+    specs: { weight: '188g', battery: '24hrs', connectivity: '5G / Wi-Fi 6E' },
+    tags: ['phone', 'flagship', 'camera'],
+    isNew: true,
+  },
+  {
+    id: 5,
+    name: 'CloudMesh Running Shoes',
+    price: 94.99,
+    originalPrice: 129.99,
+    discount: 27,
+    rating: 4.4,
+    reviews: 166,
+    category: 'Lifestyle',
+    brand: 'StrideLab',
+    stock: 20,
+    images: [
+      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Coral', 'White', 'Black'],
+    sizes: ['7', '8', '9', '10'],
+    description:
+      'Featherweight running shoes with responsive cushioning and breathable knit support.',
+    specs: { weight: '210g', battery: 'N/A', connectivity: 'N/A' },
+    tags: ['shoes', 'running', 'comfort'],
+  },
+  {
+    id: 6,
+    name: 'Creator Mechanical Keyboard',
+    price: 149.99,
+    originalPrice: 189.99,
+    discount: 21,
+    rating: 4.6,
+    reviews: 121,
+    category: 'Home Office',
+    brand: 'TypeForge',
+    stock: 14,
+    images: [
+      'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Slate', 'Ivory'],
+    sizes: ['75%', 'TKL'],
+    description:
+      'Hot-swappable keyboard tuned for quiet tactile feedback and a premium desktop setup.',
+    specs: { weight: '780g', battery: '60hrs', connectivity: 'Bluetooth / USB-C' },
+    tags: ['keyboard', 'mechanical', 'workspace'],
+  },
+  {
+    id: 7,
+    name: 'Portable Gaming Console',
+    price: 299.99,
+    originalPrice: 349.99,
+    discount: 14,
+    rating: 4.2,
+    reviews: 73,
+    category: 'Gaming',
+    brand: 'ArcadeGo',
+    stock: 9,
+    images: [
+      'https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Black', 'Mint'],
+    sizes: ['256GB'],
+    description:
+      'Take your library anywhere with a vivid display, ergonomic grips, and instant cloud sync.',
+    specs: { weight: '410g', battery: '8hrs', connectivity: 'Wi-Fi 6' },
+    tags: ['gaming', 'portable', 'console'],
+  },
+  {
+    id: 8,
+    name: 'Studio Backpack',
+    price: 79.99,
+    originalPrice: 109.99,
+    discount: 27,
+    rating: 4.1,
+    reviews: 59,
+    category: 'Lifestyle',
+    brand: 'UrbanFold',
+    stock: 18,
+    images: [
+      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80',
+    ],
+    colors: ['Black', 'Olive'],
+    sizes: ['18L', '24L'],
+    description:
+      'Weather-resistant backpack with padded laptop compartment and modular travel pockets.',
+    specs: { weight: '890g', battery: 'N/A', connectivity: 'N/A' },
+    tags: ['bag', 'travel', 'backpack'],
+  },
+];
+
+export const reviews = [
+  {
+    id: 1,
+    productId: 1,
+    author: 'Ava M.',
+    rating: 5,
+    title: 'Worth every penny',
+    content: 'Deep bass, clear calls, and the battery actually lasts my whole work week.',
+    date: '2026-02-18',
+  },
+  {
+    id: 2,
+    productId: 1,
+    author: 'Noah J.',
+    rating: 4,
+    title: 'Comfortable for long flights',
+    content: 'The fit is excellent and noise cancellation is very strong for travel.',
+    date: '2026-01-09',
+  },
+  {
+    id: 3,
+    productId: 4,
+    author: 'Sophia K.',
+    rating: 5,
+    title: 'Camera is stunning',
+    content: 'Night mode and portrait shots are both much better than my previous phone.',
+    date: '2026-03-02',
+  },
+];
+
+export const orderHistory = [
+  { id: 'ORD-10231', date: '2026-03-12', total: 249.98, status: 'Processing' },
+  { id: 'ORD-10184', date: '2026-02-25', total: 129.99, status: 'Shipped' },
+  { id: 'ORD-10120', date: '2026-01-16', total: 389.97, status: 'Delivered' },
+];
+
+export const defaultUser = {
+  fullName: 'Jordan Carter',
+  email: 'jordan@example.com',
+  phone: '+1 (555) 908-2274',
+  avatar:
+    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80',
+  addresses: [
+    '278 Orchard Lane, Austin, TX',
+    '4412 Sunset Blvd, Los Angeles, CA',
+  ],
+};
