@@ -2,6 +2,7 @@
   "name": "new",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Muhammad-Hamza-Ranjha/ecommerece_prototype",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -40,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "homepage": "https://github.com/Muhammad-Hamza-Ranjha/ecommerece_prototype"
+    "gh-pages": "^6.3.0"
   }
 }
